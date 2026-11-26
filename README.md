@@ -4,7 +4,7 @@
 [![Refresh data](https://github.com/mprantikk/south-asia-health-financing/actions/workflows/refresh.yml/badge.svg)](https://github.com/mprantikk/south-asia-health-financing/actions/workflows/refresh.yml)
 ![Data](https://img.shields.io/badge/data-World_Bank_WDI-0071BC)
 
-**Who pays for healthcare in Bangladesh, and how does that compare with the rest of South Asia?** This project benchmarks Bangladesh against its seven South Asian neighbours and the regional, lower-middle-income and world aggregates on seven health-financing and outcome indicators, using **real World Bank open data**. It refreshes itself every month.
+**Who pays for healthcare in Bangladesh, and how does that compare with the rest of South Asia?** This project benchmarks Bangladesh against its seven South Asian neighbours and the regional, lower-middle-income and world aggregates on six health-financing and outcome indicators, using **real World Bank open data**. It refreshes itself every month.
 
 ## Key numbers
 
@@ -29,7 +29,6 @@ When most health spending comes straight from household pockets, one hospital st
 | Out-of-pocket share of health spending | `SH.XPD.OOPC.CH.ZS` | lower |
 | Government share of health spending | `SH.XPD.GHED.CH.ZS` | higher |
 | Physicians per 1,000 people | `SH.MED.PHYS.ZS` | higher |
-| UHC service coverage index | `SH.UHC.SRVS.CV.XD` | higher |
 | Life expectancy at birth | `SP.DYN.LE00.IN` | higher |
 
 Countries: Bangladesh, India, Pakistan, Nepal, Sri Lanka, Bhutan, Maldives, Afghanistan. Each country is compared on its latest available year (health-expenditure data typically lags 2–3 years).

@@ -27,7 +27,6 @@ INDICATORS = {
     "SH.XPD.OOPC.CH.ZS": ("Out-of-pocket share of health spending", "%", False),
     "SH.XPD.GHED.CH.ZS": ("Government share of health spending", "%", True),
     "SH.MED.PHYS.ZS": ("Physicians per 1,000 people", "per 1,000", True),
-    "SH.UHC.SRVS.CV.XD": ("UHC service coverage index", "index 0-100", True),
     "SP.DYN.LE00.IN": ("Life expectancy at birth", "years", True),
 }
 
