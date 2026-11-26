@@ -9,7 +9,12 @@
 ## Key numbers
 
 <!-- KEY-NUMBERS:START -->
-_Populated automatically by the refresh workflow._
+- Households pay **79%** of all health spending out of pocket in Bangladesh (2023), against a South Asia median of 54% and a world figure of 17%. That ranks Bangladesh **8 of 8** in the region (1 = lowest burden).
+- The out-of-pocket share has moved up from 70% in 2013 to 79% in 2023.
+- Government pays only **14%** of health spending (South Asia median 35%), which is the other side of the same coin.
+- Total health spending is **US$54 per person** (2.2% of GDP), rank 7 of 8 in South Asia.
+
+_Data fetched 2026-11-26._
 <!-- KEY-NUMBERS:END -->
 
 Full scorecard and charts: **[REPORT.md](REPORT.md)**
