@@ -1,0 +1,7 @@
+indicator,name,unit,year,bangladesh,south_asia_median,south_asia_aggregate,lower_middle_income,world,rank_in_south_asia,better_than_median
+SH.XPD.CHEX.GD.ZS,"Health spending, % of GDP",%,2023,2.2,4.0,3.3,3.7,10.1,8 of 8,False
+SH.XPD.CHEX.PC.CD,"Health spending per person, US$",US$,2023,53.5,84.3,82.5,84.6,1317.3,7 of 8,False
+SH.XPD.OOPC.CH.ZS,Out-of-pocket share of health spending,%,2023,79.3,53.9,46.6,47.0,17.3,8 of 8,False
+SH.XPD.GHED.CH.ZS,Government share of health spending,%,2023,14.5,34.6,37.3,36.5,60.9,7 of 8,False
+SH.MED.PHYS.ZS,"Physicians per 1,000 people","per 1,000",2023,0.7,0.9,0.7,0.7,1.9,6 of 8,False
+SP.DYN.LE00.IN,Life expectancy at birth,years,2024,74.9,72.7,72.6,69.5,73.5,3 of 8,True
