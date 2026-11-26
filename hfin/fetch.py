@@ -18,6 +18,8 @@ from .config import AGGREGATES, API, COUNTRIES, INDICATORS, START_YEAR
 
 DATA = Path(__file__).resolve().parent.parent / "data"
 FIELDS = ["iso3", "country", "indicator", "year", "value"]
+# Some aggregates come back without an ISO3 code, only the World Bank's 2-character id
+AGGREGATE_IDS = {"XN": "LMC", "8S": "SAS", "1W": "WLD"}
 
 
 def parse_page(payload: list) -> tuple[list[dict], int]:
@@ -31,7 +33,7 @@ def parse_page(payload: list) -> tuple[list[dict], int]:
         if r.get("value") is None:
             continue
         rows.append({
-            "iso3": r.get("countryiso3code") or r["country"]["id"],
+            "iso3": r.get("countryiso3code") or AGGREGATE_IDS.get(r["country"]["id"], r["country"]["id"]),
             "country": r["country"]["value"],
             "indicator": r["indicator"]["id"],
             "year": int(r["date"]),

@@ -25,6 +25,13 @@ def test_parse_page_skips_nulls_and_reads_pages():
     assert rows == [{"iso3": "BGD", "country": "BGD", "indicator": "SH.XPD.OOPC.CH.ZS", "year": 2021, "value": 73.0}]
 
 
+def test_aggregate_without_iso3_is_mapped():
+    rec = api_record("LMC", "SH.XPD.OOPC.CH.ZS", 2021, 40.0)
+    rec["countryiso3code"], rec["country"]["id"] = "", "XN"
+    rows, _ = parse_page([{"pages": 1}, [rec]])
+    assert rows[0]["iso3"] == "LMC"
+
+
 def test_parse_page_raises_on_api_error():
     with pytest.raises(ValueError, match="Invalid value"):
         parse_page([{"message": [{"id": "120", "value": "Invalid value"}]}])
